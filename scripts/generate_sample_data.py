@@ -150,12 +150,20 @@ def generate_sample_data():
                     else:
                         ball_str = f"{np.random.uniform(0.3, 0.7):.4f},{np.random.uniform(0.3, 0.7):.4f},1.50"
 
-                # Format players
+                # Format 46 player slots: 11 active on-pitch per team, rest are bench slots (N)
+                # Matches real Metrica EPTS data where ~22 tracklets are active during play and none at halftime
                 player_parts = []
+                is_halftime = (label == "X")
                 for p in range(23):
-                    player_parts.append(f"{h_x[p]:.4f},{h_y[p]:.4f},{h_s[p]:.2f}")
+                    if p < 11 and not is_halftime:
+                        player_parts.append(f"{h_x[p]:.2f},{h_y[p]:.2f},{h_s[p]:.1f}")
+                    else:
+                        player_parts.append("N")
                 for p in range(23):
-                    player_parts.append(f"{a_x[p]:.4f},{a_y[p]:.4f},{a_s[p]:.2f}")
+                    if p < 11 and not is_halftime:
+                        player_parts.append(f"{a_x[p]:.2f},{a_y[p]:.2f},{a_s[p]:.1f}")
+                    else:
+                        player_parts.append("N")
 
                 players_str = ";".join(player_parts)
                 lines.append(f"{frame_id}:{players_str}:{ball_str}\n")
@@ -163,6 +171,8 @@ def generate_sample_data():
             f.writelines(lines)
             if (chunk_end // chunk_size) % 5 == 0 or chunk_end == n_frames:
                 print(f"   Generated {chunk_end:,}/{n_frames:,} frames...")
+
+
 
     print(f"   Created {txt_path} successfully!")
 

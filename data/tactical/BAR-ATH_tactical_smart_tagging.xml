@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file>
+  <ALL_INSTANCES>
+    <instance>
+      <start>447.0</start>
+      <end>452.0</end>
+      <code>SET PIECES</code>
+      <label>
+        <group>Type</group>
+        <text>Kick Off (Start)</text>
+      </label>
+      <label>
+        <group>Team</group>
+        <text>Barcelona</text>
+      </label>
+    </instance>
+    <instance>
+      <start>4549.0</start>
+      <end>4554.0</end>
+      <code>SET PIECES</code>
+      <label>
+        <group>Type</group>
+        <text>Kick Off (Start)</text>
+      </label>
+      <label>
+        <group>Team</group>
+        <text>Athletic Club</text>
+      </label>
+    </instance>
+  </ALL_INSTANCES>
+</file>

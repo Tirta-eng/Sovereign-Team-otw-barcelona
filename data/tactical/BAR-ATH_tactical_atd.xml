@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+  <PitchDimensions>
+    <FieldLength>105.3</FieldLength>
+    <FieldWidth>68.0</FieldWidth>
+  </PitchDimensions>
+  <Teams>
+    <Team id="HomeTeam">
+      <Name>Barcelona</Name>
+    </Team>
+    <Team id="AwayTeam">
+      <Name>Athletic Club</Name>
+    </Team>
+  </Teams>
+  <Players>
+      <Player id="1" teamId="HomeTeam"><Name>Track 1</Name><ShirtNumber>1</ShirtNumber></Player>
+      <Player id="2" teamId="HomeTeam"><Name>Track 2</Name><ShirtNumber>2</ShirtNumber></Player>
+      <Player id="3" teamId="HomeTeam"><Name>Track 3</Name><ShirtNumber>3</ShirtNumber></Player>
+      <Player id="4" teamId="HomeTeam"><Name>Track 4</Name><ShirtNumber>4</ShirtNumber></Player>
+      <Player id="5" teamId="HomeTeam"><Name>Track 5</Name><ShirtNumber>5</ShirtNumber></Player>
+      <Player id="6" teamId="HomeTeam"><Name>Track 6</Name><ShirtNumber>6</ShirtNumber></Player>
+      <Player id="7" teamId="HomeTeam"><Name>Track 7</Name><ShirtNumber>7</ShirtNumber></Player>
+      <Player id="8" teamId="HomeTeam"><Name>Track 8</Name><ShirtNumber>8</ShirtNumber></Player>
+      <Player id="9" teamId="HomeTeam"><Name>Track 9</Name><ShirtNumber>9</ShirtNumber></Player>
+      <Player id="10" teamId="HomeTeam"><Name>Track 10</Name><ShirtNumber>10</ShirtNumber></Player>
+      <Player id="11" teamId="HomeTeam"><Name>Track 11</Name><ShirtNumber>11</ShirtNumber></Player>
+      <Player id="12" teamId="HomeTeam"><Name>Track 12</Name><ShirtNumber>12</ShirtNumber></Player>
+      <Player id="13" teamId="HomeTeam"><Name>Track 13</Name><ShirtNumber>13</ShirtNumber></Player>
+      <Player id="14" teamId="HomeTeam"><Name>Track 14</Name><ShirtNumber>14</ShirtNumber></Player>
+      <Player id="15" teamId="HomeTeam"><Name>Track 15</Name><ShirtNumber>15</ShirtNumber></Player>
+      <Player id="16" teamId="HomeTeam"><Name>Track 16</Name><ShirtNumber>16</ShirtNumber></Player>
+      <Player id="17" teamId="HomeTeam"><Name>Track 17</Name><ShirtNumber>17</ShirtNumber></Player>
+      <Player id="18" teamId="HomeTeam"><Name>Track 18</Name><ShirtNumber>18</ShirtNumber></Player>
+      <Player id="19" teamId="HomeTeam"><Name>Track 19</Name><ShirtNumber>19</ShirtNumber></Player>
+      <Player id="20" teamId="HomeTeam"><Name>Track 20</Name><ShirtNumber>20</ShirtNumber></Player>
+      <Player id="21" teamId="HomeTeam"><Name>Track 21</Name><ShirtNumber>21</ShirtNumber></Player>
+      <Player id="22" teamId="HomeTeam"><Name>Track 22</Name><ShirtNumber>22</ShirtNumber></Player>
+      <Player id="23" teamId="HomeTeam"><Name>Track 23</Name><ShirtNumber>23</ShirtNumber></Player>
+      <Player id="24" teamId="AwayTeam"><Name>Track 24</Name><ShirtNumber>24</ShirtNumber></Player>
+      <Player id="25" teamId="AwayTeam"><Name>Track 25</Name><ShirtNumber>25</ShirtNumber></Player>
+      <Player id="26" teamId="AwayTeam"><Name>Track 26</Name><ShirtNumber>26</ShirtNumber></Player>
+      <Player id="27" teamId="AwayTeam"><Name>Track 27</Name><ShirtNumber>27</ShirtNumber></Player>
+      <Player id="28" teamId="AwayTeam"><Name>Track 28</Name><ShirtNumber>28</ShirtNumber></Player>
+      <Player id="29" teamId="AwayTeam"><Name>Track 29</Name><ShirtNumber>29</ShirtNumber></Player>
+      <Player id="30" teamId="AwayTeam"><Name>Track 30</Name><ShirtNumber>30</ShirtNumber></Player>
+      <Player id="31" teamId="AwayTeam"><Name>Track 31</Name><ShirtNumber>31</ShirtNumber></Player>
+      <Player id="32" teamId="AwayTeam"><Name>Track 32</Name><ShirtNumber>32</ShirtNumber></Player>
+      <Player id="33" teamId="AwayTeam"><Name>Track 33</Name><ShirtNumber>33</ShirtNumber></Player>
+      <Player id="34" teamId="AwayTeam"><Name>Track 34</Name><ShirtNumber>34</ShirtNumber></Player>
+      <Player id="35" teamId="AwayTeam"><Name>Track 35</Name><ShirtNumber>35</ShirtNumber></Player>
+      <Player id="36" teamId="AwayTeam"><Name>Track 36</Name><ShirtNumber>36</ShirtNumber></Player>
+      <Player id="37" teamId="AwayTeam"><Name>Track 37</Name><ShirtNumber>37</ShirtNumber></Player>
+      <Player id="38" teamId="AwayTeam"><Name>Track 38</Name><ShirtNumber>38</ShirtNumber></Player>
+      <Player id="39" teamId="AwayTeam"><Name>Track 39</Name><ShirtNumber>39</ShirtNumber></Player>
+      <Player id="40" teamId="AwayTeam"><Name>Track 40</Name><ShirtNumber>40</ShirtNumber></Player>
+      <Player id="41" teamId="AwayTeam"><Name>Track 41</Name><ShirtNumber>41</ShirtNumber></Player>
+      <Player id="42" teamId="AwayTeam"><Name>Track 42</Name><ShirtNumber>42</ShirtNumber></Player>
+      <Player id="43" teamId="AwayTeam"><Name>Track 43</Name><ShirtNumber>43</ShirtNumber></Player>
+      <Player id="44" teamId="AwayTeam"><Name>Track 44</Name><ShirtNumber>44</ShirtNumber></Player>
+      <Player id="45" teamId="AwayTeam"><Name>Track 45</Name><ShirtNumber>45</ShirtNumber></Player>
+      <Player id="46" teamId="AwayTeam"><Name>Track 46</Name><ShirtNumber>46</ShirtNumber></Player>
+  </Players>
+</Metadata>

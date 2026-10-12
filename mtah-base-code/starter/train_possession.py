@@ -21,9 +21,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 
-ROOT = Path(__file__).resolve().parents[1]
+# Locate repository root containing games.py
+current = Path(__file__).resolve().parent
+ROOT = current.parents[1] if current.parent.name == "mtah-base-code" else current.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+
 
 from games import GAME, GAMES, half_video_blocks, require, source_frames  # noqa: E402
 

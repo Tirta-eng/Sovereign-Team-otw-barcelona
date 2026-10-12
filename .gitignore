@@ -58,7 +58,10 @@ organizers/
 .vscode/
 __pycache__/
 *.py[cod]
+artifacts/
+
 .venv/
 venv/
 env/
 .DS_Store
+sample-data/
